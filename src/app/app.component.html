@@ -1,4 +1,22 @@
-<!--The content below is only a placeholder and can be replaced.-->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" routerLink="">Epicodus Tunes</a>
+    </div>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a routerLink="about">About</a></li>
+      <li><a routerLink="marketplace">Marketplace</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="container">
+  <h1>{{title}}</h1>
+  <router-outlet></router-outlet>
+</div>
+
+
+<!--The content below is only a placeholder and can be replaced.
 <div style="text-align:center">
   <h1>
     Welcome to {{title}}!
@@ -16,5 +34,4 @@
   <li>
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
-</ul>
-
+</ul>-->
